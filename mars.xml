@@ -1,7 +1,7 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="2" inline="true" x="-3" y="7">
+  <block type="controls_repeat" id="1" inline="true" x="-3" y="7">
     <value name="TIMES">
-      <block type="math_number" id="1">
+      <block type="math_number" id="2">
         <field name="NUM">15</field>
       </block>
     </value>
@@ -14,12 +14,12 @@
                 <field name="NUM">5000</field>
               </block>
             </value>
+            <next>
+              <block type="movement_stop" id="6"></block>
+            </next>
           </block>
         </next>
       </block>
     </statement>
-    <next>
-      <block type="movement_stop" id="21"></block>
-    </next>
   </block>
 </xml>
